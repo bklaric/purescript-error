@@ -1,9 +1,7 @@
-"use strict";
-
-exports.defaultName = function (error) {
+export const defaultName = function (error) {
     return error.name
 }
 
-exports.defaultMessage = function (error) {
+export const defaultMessage = function (error) {
     return error.message
 }
